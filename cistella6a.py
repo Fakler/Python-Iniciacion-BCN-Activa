@@ -24,4 +24,4 @@ sum_fruites = sum(value for value in [p_pomes, p_mandarines, p_sindria, p_maduix
 # calcular 1 - la mitjana de la compra 2 - pormedio
 nb_de_compras = (len(fruites_dict))
 mitjana_de_compras = sum_fruites / nb_de_compras
-print ("Mitjana de la compra : ", mitjana_de_compras)
+print ("Mitjana de la compra : ", f"{mitjana_de_compras: .2f}")
